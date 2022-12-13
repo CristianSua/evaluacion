@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.img{
+    border-radius: 50px;
+}
+body>header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    height: 4rem;
+}
+
+body>header h1{
+    color: #f9f9fa;
+    padding-left: 10px;
+}
+body>header>article{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+body>header img{
+    height: 40px;
+    width: 40px;
+}
+
+body>header>article>span>i{
+    color: #f9f9fa;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.principal>header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9f9fa;
+}
+
+.principal>header>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(158, 144, 144, 0.315);
+    height: 2rem;
+    width: 15vh;
+    border-radius: 50px;
+}
+
+.principal>section{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.principal>section>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 20vh;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(/img/myk.jpg);
+    background-size: cover;
+}
+
+.principal>section>article p{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.principal>section>article h1{
+    color: #f9f9fa;
+}
+
+
+.secundaria{
+    display: flex;
+    flex-direction: column;
+}
+
+.secundaria>header{
+    display: flex;
+    justify-content: space-around;
+    gap:190px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: black;
+    color: #f9f9fa;
+}
+
+.secundaria>header>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(158, 144, 144, 0.315);
+    height: 2rem;
+    width: 15vh;
+    border-radius: 50px;
+}
+
+
+.secundaria>section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.secundaria>section>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 35vh;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(/img/myke.jpg);
+    background-size: cover;
+}
+
+.secundaria>section>article p{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.secundaria>section>article h1{
+    color: #f9f9fa;
+}
+
+
+.tercera{
+    display: flex;
+    flex-direction: column;
+    color: #f9f9fa;
+    height: 15rem;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.tercera>header{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tercera>section>article{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.tercera>section>article img{
+    height: 30px;
+    width: 30px;
+}
+
+.tercera>section>article>section{
+    display: flex;
+}
+
+.tercera>section>article>section>article h1{
+    font-size: 14px;
+}
+
+.tercera>section>article>section>article p{
+    font-size: 10px;
+}
+
+.cuarta{
+    display: flex;
+    flex-direction: column;
+    color: #f9f9fa;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(165, 164, 164, 0.096);
+}
+
+.cuarta>article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+}
+
+
+
+
+/* segundo */
+
+.cabeza{
+    height: 5rem;
+    display: flex;
+    padding-top: 5px;
+}
+
+.cabeza img{
+    border-radius: 20px;
+}
+
+#primera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9fa;
+}
+
+#primera img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#primera>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#primera p{
+    padding-top: 5px;
+}
+#primera h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#primera>article>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 20vh;
+    height: 2rem;
+    background-color: #f9f9fa13;
+}
+
+
+#segunda{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #f9f9fa;
+    border-bottom: 1px solid #f9f9fa;
+}
+
