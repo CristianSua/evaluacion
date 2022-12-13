@@ -79,7 +79,7 @@ body>header>article>span>i{
     width: 20vh;
     border: 1px solid;
     border-radius: 10px;
-    background-image: url(/img/myk.jpg);
+    background-image: url(./img/myk.jpg);
     background-size: cover;
 }
 
@@ -136,7 +136,7 @@ body>header>article>span>i{
     width: 35vh;
     border: 1px solid;
     border-radius: 10px;
-    background-image: url(/img/myke.jpg);
+    background-image: url(./img/myke.jpg);
     background-size: cover;
 }
 
